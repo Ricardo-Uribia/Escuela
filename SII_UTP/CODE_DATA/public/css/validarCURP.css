@@ -1,0 +1,11 @@
+#resultado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.ok:after {
+    border-color: green;
+}
+.bad:after{
+   border-color:red
+}

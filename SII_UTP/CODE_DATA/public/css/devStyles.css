@@ -1,0 +1,59 @@
+
+/*BOTON DEL SISTEMA*/
+.btn-neutral{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;                  
+  border: 1px solid grey;
+  border-radius: .25rem;
+  box-shadow: none;
+  padding: .355rem .55rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/*BORDE DE LOS PANELES CON COLOR DEL SISTEMA*/
+.border-neutral{
+  border-top: 5px solid #1f2f55;      
+  border-radius: 5px;
+}
+
+
+/*COLORES DEL SISTEMA*/
+.sys-color{
+  color: : #1f2f55;
+}
+.sys-background-color{
+  background-color: #1f2f55; 
+  color: #fff;
+}
+
+
+
+/*ALINIAR CONTENIDO EN UNA LINEA*/
+.inline-block{
+  display: inline-block;
+}
+
+
+/*DESHABILITAR CONTENIDO*/
+.disabled-content {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.disabledContent {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/*PONER ALINEACION DE CONTENIDO DE TABLA VERTICAL Y CENTRADO */
+.table-sys tr td{
+    vertical-align:middle;
+    text-align: center;
+  }
