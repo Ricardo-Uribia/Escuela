@@ -1,0 +1,32 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Alumno</th>
+        <th>Matricula</th>
+        <th>P1</th>
+        <th>P2</th>
+        <th>P3</th>
+        <th>Ordinario</th>
+        <th>Recuperativo</th>
+        <th>Especial</th>
+        <th>Final</th>
+      </tr>
+    </thead>
+    <tbody>
+    @foreach($alumnoskardex as $alumnokardex)
+      <tr>
+        <td>{{$loop->iteration}}</td>
+        <td>{{$alumnokardex->id}}</td>
+        <td>{{$alumnokardex->Matricula}}</td>
+        <td>{{$alumnokardex->parcial_1}}</td>
+        <td>{{$alumnokardex->parcial_2}}</td>
+        <td>10</td>
+        <td>10</td>
+        <td></td>
+        <td></td>
+        <td>10</td>
+      </tr>
+    @endforeach
+    </tbody>
+  </table>
